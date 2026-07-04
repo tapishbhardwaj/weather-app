@@ -88,4 +88,4 @@ If you like this project, consider giving it a ⭐ on GitHub!
 
 ### 🌙 Dark Mode
 
-![Dark Mode](./screenshots/dark-mode.jpeggi)
+![Dark Mode](./screenshots/dark-mode.jpeg)
