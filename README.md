@@ -84,8 +84,8 @@ If you like this project, consider giving it a ⭐ on GitHub!
 
 ### ☀️ Light Mode
 
-![Light Mode](./screenshots/light-mode.png)
+![Light Mode](./screenshots/light-mode.jpeg)
 
 ### 🌙 Dark Mode
 
-![Dark Mode](./screenshots/dark-mode.png)
+![Dark Mode](./screenshots/dark-mode.jpeggi)
