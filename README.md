@@ -22,3 +22,40 @@ It provides real-time weather information, 7-day forecast, air quality index (AQ
 - 🌙 Dark / Light Mode
 - 🎨 Dynamic Background
 - 📱 Responsive Design
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Fetch API
+- WeatherAPI
+- Open-Meteo Geocoding API
+- Geolocation API
+- Git & GitHub
+
+## 📚 APIs Used
+
+### WeatherAPI
+- Current Weather
+- 7-Day Forecast
+- Air Quality Index (AQI)
+
+### Open-Meteo Geocoding API
+- City Search
+- Autocomplete Suggestions
+
+### Browser Geolocation API
+- Current Location Weather
+
+## ⚙️ Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/tapishbhardwaj/weather-app.git
+```
+
+2. Open the project folder.
+
+3. Open `index.html` in your browser.
