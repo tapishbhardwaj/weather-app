@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .form-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        align-items: flex-end;
+      }
+
+      .input-group {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        flex: 1 1 240px;
+        min-width: 240px;
+      }
+
+      #countrySelect {
+        padding: 0.75rem 0.9rem;
+        border-radius: 0.65rem;
+        border: 1px solid #ced4da;
+        background: #fff;
+        font-size: 0.95rem;
+      }
+
+      .form-row .primary {
+        flex: 0 0 auto;
+        min-width: 120px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app">
+      <div class="card">
+        <div class="header">
+          <div class="title-block">
+            <h1>Weather App</h1>
+            <p class="subtitle">
+              Search any city to view live weather conditions and details.
+            </p>
+          </div>
+          <button class="theme-toggle" id="themeToggle">Dark mode</button>
+        </div>
+
+        <div class="form-row">
+          <div class="input-group">
+            <input
+              type="text"
+              id="locationInput"
+              placeholder="Enter city name"
+              autocomplete="off"
+            />
+
+            <div id="suggestions"></div>
+          </div>
+
+          <button class="primary" id="searchBtn">Search</button>
+          <button class="primary" id="locationBtn">📍 Current Location</button>
+        </div>
+
+        <div id="weatherResult" class="weather-card" hidden>
+          <div class="weather-summary">
+            <div>
+              <h2 id="city">City Name</h2>
+              <p class="details" id="condition">Weather condition</p>
+              <p class="details" id="localTime"></p>
+            </div>
+            <img id="weatherIcon" src="" alt="Weather icon" />
+          </div>
+
+          <p class="temp-large" id="temp">0°C</p>
+
+          <div class="weather-info">
+            <div class="info-block">
+              <span id="feelsLike">--°C</span>
+              <small>Feels like</small>
+            </div>
+            <div class="info-block">
+              <span id="humidity">--%</span>
+              <small>Humidity</small>
+            </div>
+            <div class="info-block">
+              <span id="wind">-- kph</span>
+              <small>Wind speed</small>
+            </div>
+            <div class="info-block">
+              <span id="sunrise">--</span>
+              <small>Sunrise</small>
+            </div>
+
+            <div class="info-block">
+              <span id="sunset">--</span>
+              <small>Sunset</small>
+            </div>
+            <div class="info-block">
+              <span id="aqi">--</span>
+              <small>Air Quality</small>
+            </div>
+          </div>
+        </div>
+        <div class="forecast-container" id="forecastContainer"></div>
+        <p id="lastUpdated" class="last-updated">Last Updated: --</p>
+
+        <p id="errorMessage" class="error" hidden></p>
+      </div>
+      <footer class="footer">
+        <p>Made with by Tapish Bhardwaj</p>
+        <small>Powered by WeatherAPI</small>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
