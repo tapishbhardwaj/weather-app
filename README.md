@@ -59,3 +59,33 @@ git clone https://github.com/tapishbhardwaj/weather-app.git
 2. Open the project folder.
 
 3. Open `index.html` in your browser.
+
+## 📂 Project Structure
+
+```
+weather-app/
+│
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+└── screenshots/
+```
+
+## 👨‍💻 Author
+
+**Tapish Bhardwaj**
+
+- GitHub: https://github.com/tapishbhardwaj
+
+If you like this project, consider giving it a ⭐ on GitHub!
+
+## 📸 Screenshots
+
+### ☀️ Light Mode
+
+![Light Mode](./screenshots/light-mode.png)
+
+### 🌙 Dark Mode
+
+![Dark Mode](./screenshots/dark-mode.png)
